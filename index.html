@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson9</title>
+</head>
+<body>
+    <main class="main">
+        <form class="newUser" name="newUser">
+            <label class="newUser__label">Login
+                <input type="text" class="newUser__input" name="login" placeholder="Enter login" autocomplete="off">
+            </label>
+            <label class="newUser__label">Password
+                <input type="password" class="newUser__input" name="password" placeholder="Enter password" autocomplete="off">
+            </label>
+            <label class="newUser">Email
+                <input type="email" class="newUser__input" name="email" placeholder="Enter email" autocomplete="off">
+            </label>
+            <button type="button" class="btn btn_add" name="add">Add user</button>
+            <button type="button" class="btn btn_add hide" name="edit">Edit user</button>
+        </form>
+        <table class="users">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Login</th>
+                    <th>Password</th>
+                    <th>Email</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
